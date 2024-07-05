@@ -1,0 +1,16 @@
+.dados {
+    max-width: 800px;
+    margin:20px 0px auto 0px;
+    padding: 20px;
+    background-color: aquamarine;
+    opacity: 60%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

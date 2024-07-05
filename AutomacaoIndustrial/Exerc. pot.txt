@@ -1,0 +1,41 @@
+int led = 3;
+int pot = A0;
+
+void setup(){
+  pinMode(led, OUTPUT);
+ 
+  Serial.begin(9600);
+}
+
+void loop(){
+  int potValor = analogRead(pot);
+  int tempoRespiracao = map(potValor, 0, 1023, 0, 4000);
+
+  if (potValor == 0) {
+    digitalWrite(led, LOW);
+    delay(100);
+  }
+ 
+  // Lógica da respiração, quanto maior o valor do pot mais demora a respiração
+  else {
+  	//Crescente  
+    for (int i = 0; i <= 100; i++) {
+      analogWrite(led, map(i, 0, 100, 0, 255));
+      delay(tempoRespiracao / 100);
+    }
+    
+    // Decrescente, inverte a lógica do for
+    for (int i = 100; i >= 0; i--) {
+      analogWrite(led, map(i, 0, 100, 0, 255));
+      delay(tempoRespiracao / 100);
+    }
+  }
+  
+  Serial.println(potValor);
+}
+
+//analogWrite(led, map(i, 0, 100, 0, 255)); Utiliza o 100 para ficar na medida de potência 100%
+//delay(tempoRespiracao / 100); //Tempo de acordo com o potenciômetro
+//analogWrite(led, map(i, 0, 100, 0, 255)); Muda a luminosidade do led de acordo com o analogWrite(256)
+//int tempoRespiracao = map(potValor, 0, 1023, 0, 4000); Demora da respiração 1024 do analogRead, divide por 4000 para ser 4seg
+//O potenciômetro não precisa ser declarado por ser analógico

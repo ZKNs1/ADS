@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    margin: 0px;
+    background-color: rgb(243, 242, 242);
+}
+
+*{
+    margin:0;
+}
+
+.ContainerEsquerda{
+    position:sticky;
+    width: 60%;
+    top: 0;
+    height: 100vh;
+}
+
+.ContainerDireita{
+    width: 40%;
+    height: fit-content;
+}
+
+.Contador{
+    margin: 0px;
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ContadorTarefasConcluidas{
+    width: 100%;
+    height: fit-content;
+    margin: 5px 3px;
+    padding: 15px 0;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.NovaTarefa{
+    height: 60vh;
+    margin: 0;
+}
+
+.CriarTarefa{
+    background-color:white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 275px;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.CriarTarefa h4{
+    margin: 10px 6vw;
+}
+
+.DigitarTextos{
+    margin: 0 auto 10px auto;
+    font-size: 20px;
+    padding: 5px 4vw;
+    width: 60%;
+}   
+
+.Enviar{
+    margin: 10px auto 0px auto;
+    width: 50%;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.CriarTarefa h1{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.Tarefa{
+    padding: 5px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;   
+}
+
+.Tarefa h1,h4{
+    padding: 10px 0 0 1vw;
+}
+
+.SelecionarStatus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    width: 100%;
+    margin: 10 0 10px 0;
+    padding: 0 5%;
+}
+
+.ApagarTarefa{
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    color:black;
+    opacity: 35%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+}
+
+.ApagarTarefa:hover{
+    width: 100%;
+    background-color:rgb(52, 52, 193);
+    opacity: 80%;
+    color:white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    margin: 0;
+}

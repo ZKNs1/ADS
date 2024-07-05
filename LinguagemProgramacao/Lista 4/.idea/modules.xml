@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exerc1/Exerc1.iml" filepath="$PROJECT_DIR$/Exerc1/Exerc1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc10/Exerc10.iml" filepath="$PROJECT_DIR$/Exerc10/Exerc10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc11/Exerc11.iml" filepath="$PROJECT_DIR$/Exerc11/Exerc11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc12/Exerc12.iml" filepath="$PROJECT_DIR$/Exerc12/Exerc12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc2/Exerc2.iml" filepath="$PROJECT_DIR$/Exerc2/Exerc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc3/Exerc3.iml" filepath="$PROJECT_DIR$/Exerc3/Exerc3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc4/Exerc4.iml" filepath="$PROJECT_DIR$/Exerc4/Exerc4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc5/Exerc5.iml" filepath="$PROJECT_DIR$/Exerc5/Exerc5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc6/Exerc6.iml" filepath="$PROJECT_DIR$/Exerc6/Exerc6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc7/Exerc7.iml" filepath="$PROJECT_DIR$/Exerc7/Exerc7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc8/Exerc8.iml" filepath="$PROJECT_DIR$/Exerc8/Exerc8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc9/Exerc9.iml" filepath="$PROJECT_DIR$/Exerc9/Exerc9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista 4.iml" filepath="$PROJECT_DIR$/Lista 4.iml" />
+    </modules>
+  </component>
+</project>
