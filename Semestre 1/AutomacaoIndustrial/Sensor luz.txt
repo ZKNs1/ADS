@@ -1,0 +1,84 @@
+/*
+
+Faça um circuito em arduino (tinkercad) que contenha:
+   - led RGB (opcional 3 leds)
+   - buzzer
+   - sensor de iluminação
+   
+Problema, controlar a iluninação de um armazém. Vamos supor que controlamos a iluminação, abrindo e fechando as cortinas. Como não temos cortina no tinkercad, vamos usar o buzzer para sinalizar que acionamos a ligação da cortina.
+
+Caso iluminação seja:
+  - Nivel 1: até 50%, led cor verde
+  - Nivel 2: até 75%, led cor amarelo
+  - Nivel 3: senão, led cor vermelha
+
+O Buzzer deve "apitar" de acordo com o nível. Obs.: Apenas quando mudar de nível.
+
+*/
+
+#define FOTO A0
+
+const int LED_VAV[] = {9,10,11};
+const int BUZZ = 2;
+
+int sensor = 0;
+int nivelAnterior=0;
+
+void setup()
+{
+  for (int i=0; i<3; i++){
+    pinMode(LED_VAV[i], OUTPUT);
+  }
+  pinMode(BUZZ, OUTPUT);
+  
+  Serial.begin(9600);
+}
+
+void loop(){
+  iluminacao();
+  
+  if(sensor > 500){
+    	analogWrite(LED_VAV[0], 00);
+  	analogWrite(LED_VAV[1], 00);
+  	analogWrite(LED_VAV[2], 200);
+	if (nivelAnterior != 1) {
+        apito(1);
+        nivelAnterior = 1;
+    }
+  }
+  
+  if(sensor < 500 && sensor > 390){
+    	analogWrite(LED_VAV[0], 110);
+  	analogWrite(LED_VAV[1], 00);
+  	analogWrite(LED_VAV[2], 90);
+	if (nivelAnterior != 2) {
+        apito(2);
+        nivelAnterior = 2;
+    }
+  }
+  
+  if(sensor < 390){
+    	analogWrite(LED_VAV[0], 200);
+  	analogWrite(LED_VAV[1], 00);
+  	analogWrite(LED_VAV[2], 00);
+	if (nivelAnterior != 3) {
+        apito(3);
+        nivelAnterior = 3;
+    }
+  }
+}
+
+void iluminacao() {
+  
+  sensor = analogRead(FOTO);
+  Serial.println(sensor);
+  delay(1000);
+}
+
+void apito(int vezes) { //Apito é definido dentro da lógica do nível do led
+  for (int i = 0; i < vezes; i++) {
+    tone(BUZZ, 220, 100);
+    delay(200);
+  }
+}
+

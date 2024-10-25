@@ -1,0 +1,15 @@
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\bin\Debug\net8.0\AplicacaoCafeteria.exe
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\bin\Debug\net8.0\AplicacaoCafeteria.deps.json
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\bin\Debug\net8.0\AplicacaoCafeteria.runtimeconfig.json
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\bin\Debug\net8.0\AplicacaoCafeteria.dll
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\bin\Debug\net8.0\AplicacaoCafeteria.pdb
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.AssemblyInfoInputs.cache
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.AssemblyInfo.cs
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.csproj.CoreCompileInputs.cache
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.sourcelink.json
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.dll
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\refint\AplicacaoCafeteria.dll
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.pdb
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\AplicacaoCafeteria.genruntimeconfig.cache
+C:\Users\msaor\OneDrive\Documentos\ADS\Semestre 2\IA\Projeto_Cafeteria\AplicacaoCafeteria\obj\Debug\net8.0\ref\AplicacaoCafeteria.dll
